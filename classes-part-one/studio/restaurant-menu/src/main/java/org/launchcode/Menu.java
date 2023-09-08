@@ -28,4 +28,6 @@ public class Menu {
     public void setDate(Date date) {
         this.date = date;
     }
+
+
 }

@@ -4,9 +4,9 @@ public class MenuItem {
     private double price;
     private String description;
     private String category;
-    private boolean isNew;
+    private String isNew;
 
-    public MenuItem(double p, String d, String c, boolean iN) {
+    public MenuItem(double p, String d, String c, String iN) {
         this.price = p;
         this.description = d;
         this.category = c;
@@ -25,7 +25,7 @@ public class MenuItem {
         this.category = category;
     }
 
-    public void setNew(boolean aNew) {
+    public void setNew(String aNew) {
         isNew = aNew;
     }
 }
